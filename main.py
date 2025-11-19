@@ -1,5 +1,7 @@
-from reports import class_roster, report_card
+from reports import report_card
 from visualize import plot_marks
+from roster import class_roster
+
 
 print("Teacher's Gradebook: ")
 print("1. View Class Roster")

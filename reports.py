@@ -1,14 +1,9 @@
 from data import STUDENT_LIST
 
-def class_roster():
-    print("\nClass Roster: ")
-    for student in STUDENT_LIST:
-        print(student['name'])
-
 def grade(marks):
     if 100 >= marks >= 95:
         return "S"
-    if 95 >= marks >= 90:
+    elif 95 > marks >= 90:
         return "A"
     elif 90 > marks >= 80:
         return "B"
@@ -16,6 +11,8 @@ def grade(marks):
         return "C"
     elif 70 > marks >= 60:
         return "D"
+    elif 60 > marks >= 50:
+        return "E"
     else:
         return "F"
 
@@ -35,10 +32,14 @@ def report_card(name):
             average = total/count
             print(">> Average marks:",average)
 
-            if average >= 70:
+            final_grade = grade(average)
+            print(">> Final Grade:",final_grade)
+
+            if final_grade != "F":
                 print(">> Status: Pass")
             else:
                 print(">> Status: Fail")
             return
+
     else:
         print("Student not found.")

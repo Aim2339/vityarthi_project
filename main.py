@@ -5,7 +5,10 @@ from roster import class_roster
 print("SYSTEM LOCKED")
 password = input("Enter Password: ")
 
-if password == "123":
+while password != "123":
+    print("Access Denied. Incorrect Password.")
+    password = input("\nEnter Password: ")
+else:
     print("Access Granted.\n")
     print("Teacher's Gradebook: ")
     print("1. View Class Roster")
@@ -26,6 +29,3 @@ if password == "123":
         plot_marks(name)
     else:
         print("Please enter a number from 1 to 3.")
-
-else:
-    print("Access Denied. Incorrect Password.")

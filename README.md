@@ -12,6 +12,24 @@ This tool allows teachers to view class rosters, analyze individual student perf
 * **Data Visualization:** Generates a Bar Chart of student marks using `matplotlib`.
 * **Pass/Fail:** Automatically determines the pass/fail status based on the calculated average.
 
+## File Structure
+```
+vityarthi_project/
+│
+├── img/                  
+│   ├── graph.png     
+│   ├── menu.png         
+│   ├── report.png        
+│   └── roster.png        
+│
+├── data.py               
+├── main.py               
+├── README.md             
+├── reports.py            
+├── roster.py             
+├── statement.md          
+└── visualize.py          
+```
 ## Technologies/Tools Used
 * **Python3**: Programming Language
 * **PyCharm**: Code Editor
@@ -35,7 +53,7 @@ Follow these steps to run the project in your terminal:
    ```
 
 ## How to Use
-1. **Login**: When the program starts, enter the password (123).
+1. **Login**: When the program starts, enter the password ``123``.
 2. **Menu Selection**: Choose an option from the menu:
    1. View the list of all students.
    2. Generate a Report Card for a specific student.
@@ -44,13 +62,13 @@ Follow these steps to run the project in your terminal:
 
 ## Screenshots
 1. **Main Menu and Login**:
- <img src="img/menu.png" width=500/>
+ <img src="img/menu.png" alt="menu" width=500/>
 
 2. **Class Roster**:
- <img src="img/roster.png" width=500/>
+ <img src="img/roster.png" alt="roster" width=500/>
 
 3. **Report Card**:
- <img src="img/report.png" width=500/>
+ <img src="img/report.png" alt="report" width=500/>
 
 4. **Bar Graph**:
- <img src="img/graph.png" width=500/>
+ <img src="img/graph.png" alt="graph" width=500/>

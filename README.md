@@ -23,9 +23,9 @@ Follow these steps to run the project in your terminal:
 
 1. **Clone the Repository**:
    ```
-   git clone git clone https://github.com/Aim2339/vityarthi_project.git
+   git clone https://github.com/Aim2339/vityarthi_project.git
    ```
-2. **Install Required Library**: 
+2. **Install Required Library**:
    ```
    pip install matplotlib
    ```
@@ -38,7 +38,7 @@ Follow these steps to run the project in your terminal:
 1. **Login**: When the program starts, enter the password (123).
 2. **Menu Selection**: Choose an option from the menu:
    1. View the list of all students.
-   2. Generate a text-based Report Card for a specific student.
+   2. Generate a Report Card for a specific student.
    3. Generate a Bar Graph of marks for a specific student.
 3. **Input**: Enter the Student Name when prompted (Aarav)
 

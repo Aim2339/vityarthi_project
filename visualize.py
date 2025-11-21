@@ -10,6 +10,7 @@ def plot_marks(name):
             marks = list(student['marks'].values())
 
             plt.bar(subjects, marks)
+            plt.title(name+"'s Marks")
             plt.xlabel("Subjects")
             plt.ylabel("Marks")
             plt.show()

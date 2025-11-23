@@ -14,21 +14,22 @@ This tool allows teachers to view class rosters, analyze individual student perf
 
 ## File Structure
 ```
-vityarthi_project/
+vityarthi_project/           # Project Directory
 │
-├── img/                  
+├── img/                     # Contains screenshots       
 │   ├── graph.png     
 │   ├── menu.png         
 │   ├── report.png        
 │   └── roster.png        
 │
-├── data.py               
-├── main.py               
-├── README.md             
-├── reports.py            
-├── roster.py             
-├── statement.md          
-└── visualize.py          
+├── data.py                  # Contains student data
+├── main.py                  # Main program file
+├── README.md                # Project Documentation
+├── reportfile.pdf           # Project Report File (PDF)        
+├── reports.py               # Contains report card function
+├── roster.py                # Contains class roster function
+├── statement.md             # Project Statement
+└── visualize.py             # Contains bar graph function
 ```
 ## Technologies/Tools Used
 * **Python3**: Programming Language
@@ -72,3 +73,6 @@ Follow these steps to run the project in your terminal:
 
 4. **Bar Graph**:
  <img src="img/graph.png" alt="graph" width=500/>
+
+## Report File:
+[Report File](reportfile.pdf)
